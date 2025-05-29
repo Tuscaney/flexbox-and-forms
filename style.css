@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Part 1: Flexbox */
+.flex-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Part 2: Inline vs. Block */
+.block-example {
+  background-color: rgb(245, 228, 72);
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.inline-example {
+  background-color: lightgreen;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+/* Part 3: Form Styling with Flexbox */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.form-container label,
+.form-container input {
+  flex: 1 1 100%;
+}
+
+.form-container button {
+  flex: 1 1 100%;
+  padding: 10px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
